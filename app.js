@@ -26,7 +26,15 @@ Ext.application({
     requires: [
         'Ext.MessageBox'
     ],
-
+    models:[
+        'Flow'
+    ],
+    controllers: [
+        'Navigations'
+    ],
+    stores: [
+        'Navigations'
+    ],
     views: [
         'Main'
     ],
