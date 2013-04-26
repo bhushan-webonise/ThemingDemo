@@ -50,6 +50,7 @@
 }
 ],
 
+
 /**
  * List of all CSS assets in the right inclusion order.
  * Each item is an object with the following format:
@@ -75,6 +76,7 @@
 "path": "resources/css/style.css"
 }
 ],
+
 
 /**
  * Used to automatically generate cache.manifest (HTML 5 application cache manifest) file when you build

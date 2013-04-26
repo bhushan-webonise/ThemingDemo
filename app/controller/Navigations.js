@@ -24,7 +24,7 @@ Ext.define('ThemingApp.controller.Navigations', {
             }
         },
 
-        handleSelector  : 'top-toolbar'
+        handleSelector  : 'nmTitleBar'
 
     },
 

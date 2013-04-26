@@ -61,12 +61,14 @@ Ext.define('ThemingApp.view.Main', {
 
                         docked: 'top',
                         xtype: 'titlebar',
+                        cls: 'nmTitleBar',
+                        height: 45,
                         itemId: 'topToolbar',
                         type: 'toptitle',
-                        cls: 'top-toolbar',
                         title: 'Theming App',
                         items: [{
                             xtype: 'button',
+                            cls: 'nmNavBtn',
                             type: 'showRightBtn',
                             iconCls: 'site_nav_bg',
                             iconMask: 'true',
