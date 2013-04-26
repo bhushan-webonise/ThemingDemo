@@ -11,10 +11,13 @@ Ext.define('ThemingApp.view.Main', {
             {
 
                 docked: 'top',
+                cls: 'nmTitleBar',
                 xtype: 'titlebar',
+                height: 45,
                 title: 'Theming App',
                 items: [{
                     xtype: 'button',
+                    cls: 'nmNavBtn',
                     iconCls: 'list',
                     iconMask: 'true',
                     align: 'right'
