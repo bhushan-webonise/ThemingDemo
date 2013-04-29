@@ -22,7 +22,7 @@ Ext.define('ThemingApp.view.Main', {
                 right: 0,
                 height: '100%',
                 width:250,
-                cls: 'sideBar',
+                cls: 'sideBar nmComp',
                 zIndex: 1,
                 mask: true,
                 store: 'Navigations',
@@ -35,6 +35,8 @@ Ext.define('ThemingApp.view.Main', {
                         xtype: 'button',
                         docked: 'left',
                         margin: '.3em 0 .3em .3em',
+                        iconCls: 'nm_giving_icon',
+                        iconMask: 'true',
                         ui: 'action',
                         text: 'Giving'
                     },
@@ -42,6 +44,8 @@ Ext.define('ThemingApp.view.Main', {
                             xtype: 'button',
                             docked: 'right',
                             margin: '.3em 0 .3em .3em',
+                            iconCls: 'nm_check_in_icon',
+                            iconMask: 'true',
                             ui: 'action',
                             text: 'Check in'
                         }]
@@ -78,9 +82,9 @@ Ext.define('ThemingApp.view.Main', {
                     {
                         xtype: 'panel',
                         docked: 'top',
-                        height: 18,
+                        height: 19,
                         style: 'background: #333',
-                        html: "<span class='nm_announcements_icon'></span><p style='font-size: 12px; color: #ffffff; line-height: 18px;'>SECTION HEADING TEXT<p>"
+                        html: "<span class='nm_announcements_subhead nm_announcements_icon'></span><p style='font-size: 12px; color: #ffffff; line-height: 18px;'>SECTION HEADING TEXT<p>"
                     },
                     {
                         xtype: 'button',
@@ -114,6 +118,7 @@ Ext.define('ThemingApp.view.Main', {
                         xtype: 'button',
                         cls: 'nmButton nmComp nmCompTxt',
                         text: 'Change Theme',
+                        ui: 'action',
                         align: 'left',
                         height: 45,
                         margin: 'auto',
