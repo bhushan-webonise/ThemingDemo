@@ -33,8 +33,8 @@ Ext.define('ThemingApp.view.Main', {
                     docked: 'top',
                     items:[ {
                         xtype: 'button',
-                        docked: 'left',
-                        margin: '.3em 0 .3em .3em',
+                        align: 'left',
+                        margin: '.3em 0 .3em .7em',
                         iconCls: 'nm_giving_icon',
                         iconMask: 'true',
                         ui: 'action',
@@ -42,8 +42,8 @@ Ext.define('ThemingApp.view.Main', {
                     },
                         {
                             xtype: 'button',
-                            docked: 'right',
-                            margin: '.3em 0 .3em .3em',
+                            align: 'right',
+                            margin: '.3em 0 .3em .7em',
                             iconCls: 'nm_check_in_icon',
                             iconMask: 'true',
                             ui: 'action',
