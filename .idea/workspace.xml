@@ -44,14 +44,12 @@
       <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="236" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+            <state line="29" column="236" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1367211860900" expanded="false" signature="779:794" placeholder="..." />
-                <marker date="1367211860900" expanded="false" signature="885:902" placeholder="..." />
-                <marker date="1367211860900" expanded="false" signature="2853:2904" placeholder="..." />
-                <marker date="1367211860900" expanded="false" signature="3496:3512" placeholder="..." />
-                <marker date="1367211860900" expanded="false" signature="3753:3786" placeholder="..." />
-                <marker date="1367211860900" expanded="false" signature="4051:4067" placeholder="..." />
+                <marker date="1367212282060" expanded="false" signature="779:794" placeholder="..." />
+                <marker date="1367212282060" expanded="false" signature="885:902" placeholder="..." />
+                <marker date="1367212282060" expanded="false" signature="2853:2904" placeholder="..." />
+                <marker date="1367212282060" expanded="false" signature="4026:4042" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -69,7 +67,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="18" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.84626645">
+            <state line="62" column="1" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.2532943">
               <folding />
             </state>
           </provider>
@@ -689,14 +687,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="236" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+        <state line="29" column="236" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1367211860900" expanded="false" signature="779:794" placeholder="..." />
-            <marker date="1367211860900" expanded="false" signature="885:902" placeholder="..." />
-            <marker date="1367211860900" expanded="false" signature="2853:2904" placeholder="..." />
-            <marker date="1367211860900" expanded="false" signature="3496:3512" placeholder="..." />
-            <marker date="1367211860900" expanded="false" signature="3753:3786" placeholder="..." />
-            <marker date="1367211860900" expanded="false" signature="4051:4067" placeholder="..." />
+            <marker date="1367212282060" expanded="false" signature="779:794" placeholder="..." />
+            <marker date="1367212282060" expanded="false" signature="885:902" placeholder="..." />
+            <marker date="1367212282060" expanded="false" signature="2853:2904" placeholder="..." />
+            <marker date="1367212282060" expanded="false" signature="4026:4042" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -717,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="18" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.84626645">
+        <state line="62" column="1" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.2532943">
           <folding />
         </state>
       </provider>
