@@ -37,6 +37,11 @@ Ext.define('ThemingApp.store.Navigations', {
                 text: 'Announcements',
                 group: 'ABOUT CHURCH',
                 icon: 'nm_announcements_icon'
+            },
+            {
+                text: 'Change Church',
+                group: 'SETTINGS',
+                icon: 'nm_change_church_icon'
             }
         ]
     }

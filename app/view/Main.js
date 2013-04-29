@@ -54,7 +54,7 @@ Ext.define('ThemingApp.view.Main', {
                 type: 'mainContainer',
                 cls: 'main',
 
-                scrollable: null,
+                scrollable: true,
                 draggable: 'horizontal',
                 items: [
                     {
@@ -77,6 +77,7 @@ Ext.define('ThemingApp.view.Main', {
                     },
                     {
                         xtype: 'panel',
+                        docked: 'top',
                         height: 18,
                         style: 'background: #333',
                         html: "<span class='nm_announcements_icon'></span><p style='font-size: 12px; color: #ffffff; line-height: 18px;'>SECTION HEADING TEXT<p>"
@@ -105,10 +106,18 @@ Ext.define('ThemingApp.view.Main', {
                     },
                     {
                         xtype: 'panel',
-                        height: 40,
                         width: '70%',
                         margin: 'auto',
                         html: "<p style='font-size: 14px;'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut purus sed dolor rhoncus congue eget id enim. Fusce interdum orci eu tellus dignissim tempor. Fusce aliquet, dui euismod varius congue, urna magna interdum dolor, et rutrum risus diam eget augue. Vestibulum et quam justo. Sed sed nibh aliquet est euismod posuere sit amet sed purus. Nullam dolor velit, gravida a iaculis ut, vehicula nec purus. Donec ornare risus at tortor dapibus molestie. Proin pulvinar justo et magna condimentum ac euismod quam cursus. Ut erat tellus, sodales ut molestie eget, dignissim ut orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus imperdiet, sapien nec eleifend porttitor, neque quam auctor elit, eu pellentesque purus sem a nulla. Nam est erat, elementum et scelerisque quis, tempor in tortor. Donec adipiscing mattis mattis. Suspendisse ullamcorper, ipsum vitae semper rutrum, dui elit malesuada velit, quis vehicula justo risus nec mi. Donec ullamcorper bibendum lectus id consectetur<p>"
+                    }
+                    ,{
+                        xtype: 'button',
+                        cls: 'nmButton nmComp nmCompTxt',
+                        text: 'Change Theme',
+                        align: 'left',
+                        height: 45,
+                        margin: 'auto',
+                        width: '70%'
                     }]
             }
         ]
