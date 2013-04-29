@@ -63,6 +63,19 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('ThemingApp.view.Main'));
+
+        Ext.select(".nmComp .x-innerhtml").addCls('nmCompTxt');
+        Ext.select(".nmTitleBar .x-button-icon").addCls('nmCompIcon');
+
+//        Ext.util.CSS.createStyleSheet(".nmComp{background: #00ff00;}")
+//        Ext.DomQuery.selectNode('.nmComp')
+//        Ext.DomHelper.applyStyles(Ext.DomQuery.selectNode('.nmComp'), 'background-color: #BBCCCC;');
+        var sheet = document.createElement('style')
+        sheet.id = 'styleSheet';
+        sheet.innerHTML = ".nmComp{background-color:#abcabc !important;} .nmCompTxt{color:#000000 !important;} .nmCompIcon{background-color:#000000 !important; background-image: none !important;}";
+        document.getElementsByTagName('head')[0].appendChild(sheet);
+//        Ext.DomHelper.insertBefore('head', "<style>.nmComp{background-color:#abcabc !important; }</style>");
+//        Window.document.write("<style>body { background-color:#000 }</style>");
     },
 
     onUpdated: function() {

@@ -26,7 +26,7 @@ Ext.define('ThemingApp.view.Main', {
                 mask: true,
                 store: 'Navigations',
                 listConfig:{
-                    itemTpl: '<div class="x-button x-iconalign-left x-button-plain x-button-menu"><span style="display: none; " class="x-list"></span><span class="x-button-icon  x-icon-mask"></span><span style="margin-left: 5px;">{icon} {text}</span></div>'
+                    itemTpl: '<div class="x-button x-iconalign-left x-button-plain x-button-menu"><span style="display: none; " class="x-list"></span><span class="x-button-icon {icon} x-icon-mask"></span><span style="margin-left: 5px;">{text}</span></div>'
                 },
                 toolbar:{
                     margin: 'auto',
@@ -61,16 +61,16 @@ Ext.define('ThemingApp.view.Main', {
 
                         docked: 'top',
                         xtype: 'titlebar',
-                        cls: 'nmTitleBar',
+                        cls: 'nmTitleBar nmComp',
                         height: 45,
                         itemId: 'topToolbar',
                         type: 'toptitle',
                         title: 'Theming App',
                         items: [{
                             xtype: 'button',
-                            cls: 'nmNavBtn',
+                            cls: 'nmNavBtn nmCompTxt',
                             type: 'showRightBtn',
-                            iconCls: 'site_nav_bg',
+                            iconCls: 'nm_site_nav_icon',
                             iconMask: 'true',
                             align: 'right'
                         }]
@@ -79,12 +79,13 @@ Ext.define('ThemingApp.view.Main', {
                         xtype: 'panel',
                         height: 18,
                         style: 'background: #333',
-                        html: "<p style='font-size: 12px; color: #ffffff; line-height: 18px;'>SECTION HEADING TEXT<p>"
+                        html: "<span class='nm_announcements_icon'></span><p style='font-size: 12px; color: #ffffff; line-height: 18px;'>SECTION HEADING TEXT<p>"
                     },
                     {
                         xtype: 'button',
                         ui: 'action',
                         text: 'Demo Button',
+                        cls: 'nmButton nmComp nmCompTxt',
                         width: '70%',
                         height: 45,
                         margin: '20px auto'

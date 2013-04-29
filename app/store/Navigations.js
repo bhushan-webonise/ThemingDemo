@@ -10,23 +10,23 @@ Ext.define('ThemingApp.store.Navigations', {
         data: [
             {
                 text: 'My Church',
-                icon: 'church'
+                icon: 'nm_my_church_bg'
             },
             {
                 text: 'Church Info',
-                icon: 'info'
+                icon: 'nm_church_info_icon'
             },
             {
                 text: 'Sermons',
-                icon: 'Sermons'
+                icon: 'nm_sermons_icon'
             },
             {
                 text: 'News',
-                icon: 'news'
+                icon: 'nm_news_icon'
             },
             {
                 text: 'Announcements',
-                icon: 'announcement'
+                icon: 'nm_announcements_icon'
             }
         ]
     }
