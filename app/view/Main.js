@@ -21,7 +21,7 @@ Ext.define('ThemingApp.view.Main', {
                 right: 0,
                 height: '100%',
                 width:250,
-                cls: 'right',
+                cls: 'sideBar',
                 zIndex: 1,
                 mask: true,
                 store: 'Navigations',
