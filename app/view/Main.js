@@ -80,7 +80,7 @@ Ext.define('ThemingApp.view.Main', {
                         docked: 'top',
                         height: 18,
                         style: 'background: #333',
-                        html: "<span class='nm_announcements_icon'></span><p style='font-size: 12px; color: #ffffff; line-height: 18px;'>SECTION HEADING TEXT<p>"
+                        html: "<span class='nm_announcements_subhead nm_announcements_icon'></span><p style='font-size: 12px; color: #ffffff; line-height: 18px;'>SECTION HEADING TEXT<p>"
                     },
                     {
                         xtype: 'button',
