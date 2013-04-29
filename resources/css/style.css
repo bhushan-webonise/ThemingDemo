@@ -103,6 +103,7 @@ h4 {
 /*sideBar------*/
 .sideBar {
     background: #444444;
+    font-family: 'Conv_GothamBook';
 }
 .sideBar .sideToolBar {
     background: none;
@@ -116,7 +117,9 @@ h4 {
     border-top: solid 1px rgba(36,36,36,.4);
     border-bottom: solid 1px rgba(0, 0, 0, 0.3);
     color: #ffffff;
-
+}
+.sideBar .x-button {
+    color: #ffffff;
 }
 .sideBar.x-list-normal .x-list-item .x-dock-horizontal{
     border-top: none;
