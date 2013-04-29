@@ -84,6 +84,7 @@ Ext.define('ThemingApp.view.Main', {
                     {
                         xtype: 'button',
                         ui: 'action',
+                        cls: 'nmMainBtn',
                         text: 'Demo Button',
                         width: '70%',
                         height: 45,
@@ -93,13 +94,13 @@ Ext.define('ThemingApp.view.Main', {
                         height: 40,
                         width: '70%',
                         margin: 'auto',
-                        html: "<h2 style='font-size: 24px;'>Heading text</h2>"
+                        html: "<h2>Heading text</h2>"
                     },{
                         xtype: 'panel',
                         height: 40,
                         width: '70%',
                         margin: 'auto',
-                        html: "<h5 style='font-size: 18px; font-weight: 700'>Sub heading text</h5>"
+                        html: "<h4>Sub heading text</h4>"
                     },
                     {
                         xtype: 'panel',

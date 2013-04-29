@@ -35,8 +35,24 @@
 body {
     font-family: 'Conv_Gotham-Light';
 }
+p{
+    font-family: 'Conv_Gotham-Light';
+    font-size: 15px;
+    color: #666666;
+    line-height: 25px;
+}
+h2 {
+     font-family: 'Conv_GothamBook';
+     font-size: 22px;
+     color: #006699;
+ }
+h4 {
+     font-family: 'Conv_GothamMedium';
+     font-size: 15px;
+     color: #444444;
+ }
 .nmTitleBar {
-    background: #4ef54a;
+    background: #df1010;
     background-image: url(../images/pattern_bg.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.3)));
     background-image: url(../images/pattern_bg.png), -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.3) 100%);
 
@@ -45,8 +61,8 @@ body {
     /*background-image: url(../images/pattern_bg.png), -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%);*/
 
 }
-.x-unsized.x-title.x-floating{
-    font-family: 'Conv_GothamBook';
+.nmTitleBar .x-unsized.x-title{
+    font-family: 'Conv_GothamMedium';
     color: #ffffff;
     font-size: 17px;
     text-shadow: 0px 2px 1px rgba(6, 6, 6, 0.7);
@@ -69,4 +85,14 @@ body {
 }
 .nmTitleBar .nmNavBtn .site_nav_bg {
     margin-left: 9px;
+}
+.nmMainBtn, .nmMainBtn.x-button.x-button-action {
+    background: #df1010;
+    background-image:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.3)));
+    background-image:  -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.3) 100%);
+    border: solid 2px rgba(86,90,85,.6);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5), inset 0px 1px 0px rgba(255,255,255,0.3);
+    font-family: 'Conv_GothamMedium';
+    text-shadow: 0px 2px 1px rgba(6, 6, 6, 0.7);
+
 }
