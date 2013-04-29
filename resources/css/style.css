@@ -67,7 +67,7 @@ h4 {
     font-family: 'Conv_GothamMedium';
     color: #ffffff;
     font-size: 17px;
-    text-shadow: 0px 2px 1px rgba(6, 6, 6, 0.4);
+    text-shadow: 0px 2px 1px rgba(6, 6, 6, 0.7);
 }
 /*.x-layout-box>.x-layout-box-item {*/
 /*border-right: solid 2px rgba(0, 0, 0, 0.3);*/
@@ -95,11 +95,12 @@ h4 {
     border: solid 2px rgba(86,90,85,.6);
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5), inset 0px 1px 0px rgba(255,255,255,0.3);
 
-    text-shadow: 0px 2px 1px rgba(6, 6, 6, 0.4);
+    text-shadow: 0px 2px 1px rgba(6, 6, 6, 0.7);
     font-family: 'Conv_GothamMedium';
 
 }
 
+<<<<<<< HEAD
 .sidenav .nm_announcements_icon{
     display: block;
     -webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyNzhGQUJCNDVDQUVFMjExODk2OURDREExMzExNDc1RiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGNTJCODJEQkFFN0IxMUUyOURBREMxOEUxMTAzQTcyQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNTJCODJEQUFFN0IxMUUyOURBREMxOEUxMTAzQTcyQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjI4OEZBQkI0NUNBRUUyMTE4OTY5RENEQTEzMTE0NzVGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjI3OEZBQkI0NUNBRUUyMTE4OTY5RENEQTEzMTE0NzVGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+yHu3UQAAAy5JREFUeNrsmktsDVEYx+/1Vho0qIhKF41I1fsRj3os6hGKRKzQlY3YkC5ELCQWgggJS7FgUVsLxKIl4nZTIkSExCNERMhFgnK1ven1P/If+XIyV2d6586M6fclv8zkfjN3+pszc853Tm+6UCikhlIMSw2xUGEVVmEVVmEVVmEVVmEVVmEVVuH/KarANnAG3AMbg/hSM/cfERPBarAarAHrwBzr6Qvs74xKuAaspaARnV2GaywAI8H9KATrwF5wGbw2T5dPtvi83i7wg9eqLPcjnQb1bD2H6SHf4CmgAtSCY6A1yC8fDhaBg+AqyA6iBUtt4RkuN72T5/bwFUo5C5btxGuY92IFOARugK9lEPQjvA/8ZF8gY5k4/6wUdj4sFmPZwRwFHaA7BEGvwtXihj936YQ7mPtkGqqY8HiOe8dBBvyKQNBPCx8Qx7VYuRaR22ALnwZdoC8Ggn6ER4OPPO6WlZsI8sydsoXjzECd1jkel+cTKuMRc+1GOCm19B0xYsyzcs9ELZAY4bdif5qVey/G5sQIf7YmHjJ6uR2XJOGpYv+7S6eW4lidGOE6sf/GZaxOsQJMjLAzXzZl5GMrN5fbF0kRNsPQdlFZ5URuEufWJh4kRdjU9BO4f9HKNQvHv0WJM7gfBlfA0xhWW8UKj1Xshc0xD10aMMNc1qmlZbF9UuyPAQ1gPjGzoyUxbN0aTgXznDX1W+91I/cvsRH/xBfyr2jknTKD+DXwLkalZTNl7dXYLp5rJj8z5YpHlY87+gpsFZWLWTdayK1hFsu7MOO6y2etnA+bOG9VYp7CaeHMAMeZamYl2A8ucAEtF8LkwX6ve3jeSzmZ8PMTLa/CxVZGGzg37QxBuFIMT0tlIqx1adOhPCH1bIGbLPWaxJASVJjScjNY7rZEG9U4fBfsBJO5fHSCw0pQPwvs5TVScRGWrW/+sCNc+TR17x7Q5tS+QYfXR7o74Ot+K/J5lrJtbIzFYBP4ELZwTqwRNZVwvVpu+zwc2893MJJ/lVQEvHq5PgoJP7206VF3gx1s5VElPMpm+nY7qk4jrb+XVmEVVmEVVmEVVmEVVmEVHlT8FmAA2g/4v2SLs6sAAAAASUVORK5CYII=');
@@ -109,5 +110,32 @@ h4 {
     float: left;
     background-color: #fff;
     margin: 0 5px;
+=======
+/*sideBar------*/
+.sideBar {
+    background: #444444;
+}
+.sideBar .sideToolBar {
+    background: none;
+    background-image: none;
+    border: none;
+}
+.sideBar .x-list-header {
+    background-color: rgba(0,0,0,.2);
+    background-image: -webkit-linear-gradient(top,  rgba(0,0,0,.2) 0%,rgba(0,0,0,.2) 1%,rgba(0,0,0,0.2) 100%);
+    background-image:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,.2)), color-stop(1%,rgba(0,0,0,.2)), color-stop(100%,rgba(0,0,0,0.2)));
+    border-top: solid 1px rgba(36,36,36,.4);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+
+}
+.sideBar.x-list-normal .x-list-item .x-dock-horizontal{
+    border-top: none;
+    border-bottom: none;
+    background: url(../images/sidebar_divider.png) repeat-x left bottom;
+}
+.sideBar.x-list-normal .x-list-item.x-list-footer-wrap .x-dock-horizontal {
+    border: none;
+>>>>>>> c4afffa2e5a227a10f2a109318f1e301567284df
 }
 
