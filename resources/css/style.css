@@ -61,16 +61,7 @@ h4 {
     /*background-image: url(../images/pattern_bg.png), -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%);*/
 
 }
-.sidenav .nmButton {
-    /*background: #4ef54a;*/
-    background-image:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.3)));
-    background-image:  -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.3) 100%);
 
-
-    /*background-image: url(../images/pattern_bg.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.45)));*/
-    /*background-image: url(../images/pattern_bg.png), -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%);*/
-
-}
 
 .nmTitleBar .x-unsized.x-title{
     font-family: 'Conv_GothamMedium';
@@ -97,13 +88,15 @@ h4 {
 .nmTitleBar .nmNavBtn .nm_site_nav_icon {
     margin-left: 9px;
 }
-.nmMainBtn, .nmMainBtn.x-button.x-button-action {
+.sidenav .nmButton {
     background: #df1010;
     background-image:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.3)));
     background-image:  -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.3) 100%);
     border: solid 2px rgba(86,90,85,.6);
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5), inset 0px 1px 0px rgba(255,255,255,0.3);
-    font-family: 'Conv_GothamMedium';
+
     text-shadow: 0px 2px 1px rgba(6, 6, 6, 0.7);
+    font-family: 'Conv_GothamMedium';
 
 }
+
