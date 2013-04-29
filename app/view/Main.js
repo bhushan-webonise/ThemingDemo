@@ -16,28 +16,28 @@ Ext.define('ThemingApp.view.Main', {
         items: [
             {
                 type: 'mainNestedList',
-                xtype: 'nestedlist',
+                xtype: 'list',
+                grouped: true,
                 docked: 'top',
                 right: 0,
                 height: '100%',
                 width:250,
-                cls: 'right',
+                cls: 'sideBar',
                 zIndex: 1,
                 mask: true,
                 store: 'Navigations',
-                listConfig:{
-                    itemTpl: '<div class="x-button x-iconalign-left x-button-plain x-button-menu"><span style="display: none; " class="x-list"></span><span class="x-button-icon {icon} x-icon-mask"></span><span style="margin-left: 5px;">{text}</span></div>'
-                },
-                toolbar:{
-                    margin: 'auto',
-                    items: [
-                        {
-                            xtype: 'button',
-                            docked: 'left',
-                            margin: '.3em 0 .3em .3em',
-                            ui: 'action',
-                            text: 'Giving'
-                        },
+                itemTpl: '<div class="x-button x-iconalign-left x-button-plain x-button-menu"><span style="display: none; " class="x-list"></span><span class="x-button-icon {icon} x-icon-mask"></span><span style="margin-left: 5px;">{text}</span></div>',
+                items:[{
+                    xtype: 'toolbar',
+                    cls: 'sideToolBar',
+                    docked: 'top',
+                    items:[ {
+                        xtype: 'button',
+                        docked: 'left',
+                        margin: '.3em 0 .3em .3em',
+                        ui: 'action',
+                        text: 'Giving'
+                    },
                         {
                             xtype: 'button',
                             docked: 'right',
@@ -45,7 +45,7 @@ Ext.define('ThemingApp.view.Main', {
                             ui: 'action',
                             text: 'Check in'
                         }]
-                }
+                } ]
             },
             {
                 xtype: 'container',

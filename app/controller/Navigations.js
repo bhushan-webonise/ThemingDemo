@@ -9,7 +9,7 @@ Ext.define('ThemingApp.controller.Navigations', {
             sideNav     : 'mainview',
             main        : 'container[type="mainContainer"]',
             showRightBtn: 'button[type="showRightBtn"]',
-            right       : 'mainview nestedlist[type="mainNestedList"]'
+            right       : 'mainview list[type="mainNestedList"]'
         },
 
         control: {
