@@ -9,7 +9,8 @@ Ext.define('ThemingApp.model.Flow', {
             {name: 'limit',       type: 'auto'},
             {name: 'preventHide', type: 'boolean'},
             {name: 'view',        type: 'string'},
-            {name: 'icon',        type: 'string'}
+            {name: 'icon',        type: 'string'},
+            {name: 'group',        type: 'string'}
         ]
     }
 });
